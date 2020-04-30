@@ -1,5 +1,49 @@
 # Change Log
 
+## [Swiper 5.3.8](https://github.com/nolimits4web/swiper/compare/v5.3.7...v5.3.8) - Released on April 24, 2020
+  * Core
+    * Fix iOS bug with double bounce on free mode momentum bounce
+  * A11y
+    * Fixed focus ring on navigation buttons (#3544)
+    * Fixed RegExp issue in `paginationBulletMessage` (#3540, #3541)
+  * Thumbs
+    * Added `thumbs.autoScrollOffset` parameter that allows to set on what thumbs active slide from edge it should automaticall move scroll thumbs
+  * Minor fixes
+
+## [Swiper 5.3.7](https://github.com/nolimits4web/swiper/compare/v5.3.6...v5.3.7) - Released on April 10, 2020
+  * Core
+    * Fixed `cssMode` behavior in RTL layout
+  * Zoom
+    * Fixed issue with not working double-tap to toggle with virtual slides
+  * Minor fixes
+
+## [Swiper 5.3.6](https://github.com/nolimits4web/swiper/compare/v5.3.1...v5.3.6) - Released on February 29, 2020
+  * Core
+    * Fixed wrong auto height calculation with `centeredSlides` enabled
+  * Lazy
+    * Now it will update auto height (if enabled) on lazy image loaded (#3466)
+  * Zoom
+    * Fixed issue when previously active slide could be zoomed with `zoom.in()` API (#3451)
+    * Fixed issue when zoom didn't work on `<picture>` element (#3456)
+    * Added support for custom zoom-target element by adding `swiper-zoom-target` class to such elements
+  * Coverflow Effect
+    * `stretch` parameter now can be set in `%` (#3468)
+  * Minor fixes
+
+## [Swiper 5.3.1](https://github.com/nolimits4web/swiper/compare/v5.3.0...v5.3.1) - Released on February 8, 2020
+  * Core
+    * Fixed issue when slider could stuck after last slide (#3414)
+    * Added `label` to list of form events to keep clicks on it (#3407)
+
+## [Swiper 5.3.0](https://github.com/nolimits4web/swiper/compare/v5.2.1...v5.3.0) - Released on January 11, 2020
+  * Core
+    * New `slidesPerGroupSkip` behavior (#3361)
+    * New ratio-based breakpoints (#3389)
+    * Added SCSS interpolation (#3373, #3374)
+  * Mousehweel
+    * Fixed issue when it can fail on load (#3383)
+  * Minor fixes
+
 ## [Swiper 5.2.1](https://github.com/nolimits4web/swiper/compare/v5.2.0...v5.2.1) - Released on November 16, 2019
   * Core
     * New loop events `beforeLoopFix` and `loopFix`
